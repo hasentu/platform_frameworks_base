@@ -3391,8 +3391,10 @@ public class PhoneWindowManager implements WindowManagerPolicy {
 
     private int updateSystemUiVisibilityFlagsForImmersive(int vis) {
         if (mForceImmersiveMode) {
-            vis |= View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+            if ((vis & View.SYSTEM_UI_FLAG_SHOW_NAVIGATION_IN_IMMERSIVE_MODE) == 0) {
+                vis |= View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
                     | View.SYSTEM_UI_FLAG_FULLSCREEN;
+            }
         }
         return vis;
     }
@@ -5104,7 +5106,8 @@ public class PhoneWindowManager implements WindowManagerPolicy {
         }
         final boolean hapticsDisabled = Settings.System.getIntForUser(mContext.getContentResolver(),
                 Settings.System.HAPTIC_FEEDBACK_ENABLED, 0, UserHandle.USER_CURRENT) == 0;
-        if (!always && (hapticsDisabled || mKeyguardDelegate.isShowingAndNotHidden())) {
+        if (!always && (hapticsDisabled || (mKeyguardDelegate != null
+                && mKeyguardDelegate.isShowingAndNotHidden()))) {
             return false;
         }
         long[] pattern = null;

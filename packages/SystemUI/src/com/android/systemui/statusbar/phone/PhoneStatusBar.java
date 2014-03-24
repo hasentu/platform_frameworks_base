@@ -930,11 +930,8 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode {
 
     private void prepareNavigationBarView() {
         mNavigationBarView.reorient();
-
-        mNavigationBarView.getRecentsButton().setOnClickListener(mRecentsClickListener);
-        mNavigationBarView.getRecentsButton().setOnTouchListener(mRecentsPreloadOnTouchListener);
-        mNavigationBarView.getHomeButton().setOnTouchListener(mHomeSearchActionListener);
-        mNavigationBarView.getSearchLight().setOnTouchListener(mHomeSearchActionListener);
+        mNavigationBarView.setListeners(mRecentsClickListener,
+                mRecentsPreloadOnTouchListener, mHomeSearchActionListener);
         updateSearchPanel();
     }
 
@@ -2775,6 +2772,10 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode {
         animateCollapsePanels();
         updateNotificationIcons();
         resetUserSetupObserver();
+        if (mNavigationBarView != null) {
+            mNavigationBarView.updateSettings();
+        }
+        super.userSwitched(newUserId);
     }
 
     private void resetUserSetupObserver() {
@@ -2950,6 +2951,7 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode {
     protected boolean shouldDisableNavbarGestures() {
         return !isDeviceProvisioned()
                 || mExpandedVisible
+                || (mNavigationBarView != null && mNavigationBarView.isInEditMode())
                 || (mDisabled & StatusBarManager.DISABLE_SEARCH) != 0;
     }
 

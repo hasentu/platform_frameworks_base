@@ -2514,7 +2514,7 @@ public final class Settings {
          * @hide
          */
         public static final String VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
-        
+
         /**
          * Boolean value whether to wake the screen with the volume rocker
          * 定义是否可用音量键唤醒屏幕的布尔值
@@ -2535,6 +2535,13 @@ public final class Settings {
          * @hide
          */
         public static final String AOSP_DIALER = "aosp_dialer";
+
+        /**
+         * Navigation bar buttons customization
+         * 个性化导航栏按键
+         * @hide
+         */
+        public static final String NAV_BUTTONS = "nav_buttons";
 
         /**
          * Settings to backup. This is here so that it's in the same place as the settings
