@@ -75,6 +75,6 @@ $$$$
 
     <!-- Longpress back button to kill foreground app -->
     <!-- 长按返回按钮以杀掉前台应用 -->
-    <string name="app_killed_message">該應用已被斬落馬下</string>
+    <string name="app_killed_message">該應用程式已被斬落馬下</string>
 
 </resources>
