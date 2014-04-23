@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-$$$$$$$$$$$$$$$
-$$$$$$ $$ $$$$
-$$$ $ $$$
-$$$$$$$ $$$ $$$
-$$$$ $$$$ $$ $$$
-$$$ $$ $ $$$
-FFFF $$$$ $$ $$$ $$
-UUUUUU $$$ $$$$$$ $$$$$$$$$ $$
-$$$ $$ $$$ $$
-$$ $$$$$$$$$ $$ $$ $$
-$$ $$ $$$ $$$$$$$$$ $$$$$$ $$
-$ $$ $$$ $$ $$$ $$
-$$$ $$$ $$ $$ $$$
-$$$$ $$$$$$$ $$ $$$
-$$$$$$$$$$$ $$$ $$$$$ $$ $$$$
-$$$ $$$$$$$$$ $$$ $$$$$ $$ $$$$$
-$$$$ $$$$$$$$$$$$$$$ $$$$$$$$$$$$
-$$$$ $$$ $$$$$$$$$$$
-$$ $$$ $$$
-$$ $$$ $$$
-$$$$$$$$$$$$$$$$$$ $$$
-$$$$$$$$ $$$$$$$$$$$$$ $$
-$$$$ $$$ $$
-$$$ $$ $$$
-$$ $$$
-$$$$$$$$$$$$$$$$$
-$$$$$$$$$$$$$$$
-$$$ $$$
-$$$ $$$
-$$$ $$$
-$$$ $$$
-$$$ $$$
-$$$ $$$
-$$$ $$$
-$$$$$ $$$$
-$$$$$$ $$$
-$$$$
+                         $$$$$$$$$$$$$$$
+                      $$$$$$        $$  $$$$
+                     $$$             $     $$$
+                   $$$$$$$          $$$      $$$
+                  $$$$ $$$$        $$          $$$
+                 $$$      $$       $            $$$
+     FFFF       $$$$     $$                $$$    $$
+    UUUUUU     $$$  $$$$$$              $$$$$$$$$  $$
+               $$$                     $$     $$$  $$
+               $$    $$$$$$$$$         $$      $$  $$
+                $$ $$  $$$ $$$$$$$$$     $$$$$$    $$
+                 $ $$      $$$  $$  $$$           $$
+  $$$             $$$              $$  $$        $$$
+   $$$$             $$$$$$$            $$      $$$
+ $$$$$$$$$$$         $$$  $$$$$       $$     $$$$
+    $$$  $$$$$$$$$   $$$     $$$$$   $$  $$$$$
+  $$$$        $$$$$$$$$$$$$$$    $$$$$$$$$$$$
+ $$$$               $$$     $$$$$$$$$$$
+      $$           $$$            $$$
+        $$        $$$            $$$
+        $$$$$$$$$$$$$$$$$$       $$$
+     $$$$$$$$     $$$$$$$$$$$$$  $$
+        $$$$      $$$            $$
+       $$$        $$            $$$
+                  $$            $$$
+                  $$$$$$$$$$$$$$$$$
+                   $$$$$$$$$$$$$$$
+                     $$$       $$$
+                    $$$         $$$
+                   $$$           $$$
+                  $$$             $$$
+                 $$$               $$$
+                $$$                 $$$
+               $$$                   $$$
+            $$$$$                    $$$$
+           $$$$$$                    $$$
+                                   $$$$
 -->
-<resourcesxmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Screenshot quick delete -->
     <!-- 快速删除屏幕截图 -->
     <string name="screenshot_delete_action">删除</string>
-    <string name="screenshot_delete_confirmation">熒幕截圖已刪除</string>
+    <string name="screenshot_delete_confirmation">螢幕截圖已刪除</string>
 
     <!-- QuickSettings tile: Immersive global mode -->
     <!-- 快捷设置磁贴: 全局沉浸模式 -->
@@ -56,7 +56,7 @@ $$$$
     <string name="quick_settings_immersive_mode_off_label">禁用</string>
     <string name="quick_settings_immersive_mode_full_label">全屏</string>
     <string name="quick_settings_immersive_mode_no_status_bar_label">導航列</string>
-    <string name="quick_settings_immersive_mode_no_navigation_bar_label">狀態條</string>
+    <string name="quick_settings_immersive_mode_no_navigation_bar_label">狀態列</string>
     <!-- QuickSettings tile: Power button -->
     <!-- 快捷设置磁贴: 电源按钮 -->
     <string name="quick_settings_sleep_action_label">電源鍵</string>
@@ -70,8 +70,8 @@ $$$$
     <string name="quick_settings_sleep_time_unknown_label">@string/quick_settings_network_unknown</string>
     <!-- QuickSettings tile: USB tether -->
     <!-- 快捷设置磁贴: USB共享网络 -->
-    <string name="quick_settings_usb_tether_connected_label">USB 數據共享</string>
-    <string name="quick_settings_usb_tether_on_label">USB 數據共享：關閉</string>
+    <string name="quick_settings_usb_tether_connected_label">USB 網路共用: 關閉</string>
+    <string name="quick_settings_usb_tether_on_label">USB 網路共用</string>
     <!-- QuickSettings tile: Battery -->
     <!-- 快捷设置磁贴: 电池 -->
     <string name="quick_settings_battery_charging">充電中</string>
@@ -81,21 +81,21 @@ $$$$
     <string name="quick_settings_lte">LTE</string>
     <!-- QuickSettings tile: LTE off -->
     <!-- 快捷设置磁贴: LTE关闭 -->
-    <string name="quick_settings_lte_off">LTE：關閉</string>
+    <string name="quick_settings_lte_off">LTE: 關閉</string>
     <!-- QuickSettings tile: Mobile network (2G/3G) -->
     <!-- 快捷设置磁贴: 蜂窝数据 (2G/3G) -->
-    <string name="quick_settings_network_type">網絡制式</string>
+    <string name="quick_settings_network_type">網路制式</string>
     <string name="quick_settings_network_unknown">未知</string>
     <string name="quick_settings_network_disabled">禁用</string>
-    <string name="quick_settings_network_toast_disabled">網絡制式設定不可用</string>
+    <string name="quick_settings_network_toast_disabled">網路制式設定不可用</string>
     <!-- QuickSettings tile: Lightbulb -->
     <!-- 快捷设置磁贴: Lightbulb -->
     <string name="quick_settings_lightbulb_label">手電</string>
-    <string name="quick_settings_lightbulb_off_label">手電：關閉</string>
+    <string name="quick_settings_lightbulb_off_label">手電: 關閉</string>
     <!-- QuickSettings tile: Wifi AP -->
     <!-- 快捷设置磁贴: Wifi热点 -->
     <string name="quick_settings_wifi_ap_label">Wi-Fi 熱點</string>
-    <string name="quick_settings_wifi_ap_off_label">Wi-Fi 熱點：關閉</string>
+    <string name="quick_settings_wifi_ap_off_label">Wi-Fi 熱點: 關閉</string>
     <!-- QuickSettings tile: Bluetooth extra -->
     <!-- 快捷设置磁贴: 进阶蓝牙状态 -->
     <string name="quick_settings_bluetooth_not_discoverable_label">不可見</string>
