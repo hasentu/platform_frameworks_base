@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-$$$$$$$$$$$$$$$
-$$$$$$ $$ $$$$
-$$$ $ $$$
-$$$$$$$ $$$ $$$
-$$$$ $$$$ $$ $$$
-$$$ $$ $ $$$
-FFFF $$$$ $$ $$$ $$
-UUUUUU $$$ $$$$$$ $$$$$$$$$ $$
-$$$ $$ $$$ $$
-$$ $$$$$$$$$ $$ $$ $$
-$$ $$ $$$ $$$$$$$$$ $$$$$$ $$
-$ $$ $$$ $$ $$$ $$
-$$$ $$$ $$ $$ $$$
-$$$$ $$$$$$$ $$ $$$
-$$$$$$$$$$$ $$$ $$$$$ $$ $$$$
-$$$ $$$$$$$$$ $$$ $$$$$ $$ $$$$$
-$$$$ $$$$$$$$$$$$$$$ $$$$$$$$$$$$
-$$$$ $$$ $$$$$$$$$$$
-$$ $$$ $$$
-$$ $$$ $$$
-$$$$$$$$$$$$$$$$$$ $$$
-$$$$$$$$ $$$$$$$$$$$$$ $$
-$$$$ $$$ $$
-$$$ $$ $$$
-$$ $$$
-$$$$$$$$$$$$$$$$$
-$$$$$$$$$$$$$$$
-$$$ $$$
-$$$ $$$
-$$$ $$$
-$$$ $$$
-$$$ $$$
-$$$ $$$
-$$$ $$$
-$$$$$ $$$$
-$$$$$$ $$$
-$$$$
+                         $$$$$$$$$$$$$$$
+                      $$$$$$        $$  $$$$
+                     $$$             $     $$$
+                   $$$$$$$          $$$      $$$
+                  $$$$ $$$$        $$          $$$
+                 $$$      $$       $            $$$
+     FFFF       $$$$     $$                $$$    $$
+    UUUUUU     $$$  $$$$$$              $$$$$$$$$  $$
+               $$$                     $$     $$$  $$
+               $$    $$$$$$$$$         $$      $$  $$
+                $$ $$  $$$ $$$$$$$$$     $$$$$$    $$
+                 $ $$      $$$  $$  $$$           $$
+  $$$             $$$              $$  $$        $$$
+   $$$$             $$$$$$$            $$      $$$
+ $$$$$$$$$$$         $$$  $$$$$       $$     $$$$
+    $$$  $$$$$$$$$   $$$     $$$$$   $$  $$$$$
+  $$$$        $$$$$$$$$$$$$$$    $$$$$$$$$$$$
+ $$$$               $$$     $$$$$$$$$$$
+      $$           $$$            $$$
+        $$        $$$            $$$
+        $$$$$$$$$$$$$$$$$$       $$$
+     $$$$$$$$     $$$$$$$$$$$$$  $$
+        $$$$      $$$            $$
+       $$$        $$            $$$
+                  $$            $$$
+                  $$$$$$$$$$$$$$$$$
+                   $$$$$$$$$$$$$$$
+                     $$$       $$$
+                    $$$         $$$
+                   $$$           $$$
+                  $$$             $$$
+                 $$$               $$$
+                $$$                 $$$
+               $$$                   $$$
+            $$$$$                    $$$$
+           $$$$$$                    $$$
+                                   $$$$
 -->
-<resourcesxmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Label for item that reboots the device in device options dialog -->
     <!-- 电源菜单中的"重新启动"按钮 -->
-    <string name="global_action_reboot">重新啓動</string>
+    <string name="global_action_reboot">重新啟動</string>
     <!-- Label for item that screenshots in device options dialog -->
     <!-- 电源菜单中的"屏幕截图"按钮 -->
     <string name="global_action_screenshot">螢幕擷取</string>
@@ -58,11 +58,11 @@ $$$$
     <string name="reboot_fastboot">引導模式</string>
     <!-- Reboot confirmation dialog text -->
     <!-- 确认重启的对话框文字 -->
-    <string name="reboot_confirm" product="tablet">你的Nexus將重新啓動</string>
-    <string name="reboot_confirm" product="default">你的Nexus將重新啓動</string>
+    <string name="reboot_confirm" product="tablet">你的Nexus將重新啟動</string>
+    <string name="reboot_confirm" product="default">你的Nexus將重新啟動</string>
     <!-- Reboot progress dialog text -->
     <!-- 重启过程的对话框文字 -->
-    <string name="reboot_progress">正在重新啓動...\u2026</string>
+    <string name="reboot_progress">正在重新啟動...\u2026</string>
 
     <!-- Shutdown confirmation dialog text -->
     <!-- 确认关机的对话框文字 -->
@@ -71,7 +71,7 @@ $$$$
 
     <!-- Immersive mode confirmation: Pick confirmation window from bottom when status bar is visible -->
     <!-- 沉浸模式确认: 当通知栏可见时 确认窗口会从屏幕下端弹出 -->
-    <string name="immersive_mode_confirmation_bottom">從底部滑出以退出全屏</string>
+    <string name="immersive_mode_confirmation_bottom">從底部滑出以退出昴的全屏</string>
 
     <!-- Longpress back button to kill foreground app -->
     <!-- 长按返回按钮以杀掉前台应用 -->
