@@ -109,9 +109,9 @@
     <!-- QuickSettings tile: Sound -->
     <!-- 快捷设置磁贴: 声音 -->
     <string name="quick_settings_ringer_mode_silent_label">靜音</string>
-    <string name="quick_settings_ringer_mode_vibrate_label">振動</string>
+    <string name="quick_settings_ringer_mode_vibrate_label">震動</string>
     <string name="quick_settings_ringer_mode_normal_label">鈴聲</string>
-    <string name="quick_settings_ringer_mode_normal_vibrate_label">鈴聲與振動</string>
+    <string name="quick_settings_ringer_mode_normal_vibrate_label">鈴聲與震動</string>
     <string name="quick_settings_volume_label">音量</string>
 
     <!-- Navigation bar buttons customization -->
