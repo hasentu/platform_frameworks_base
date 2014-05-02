@@ -114,16 +114,14 @@
     <string name="quick_settings_ringer_mode_normal_vibrate_label">鈴聲與震動</string>
     <string name="quick_settings_volume_label">音量</string>
 
-    <!-- Navigation bar buttons customization -->
-    <!-- 个性化导航栏按键 -->
-    <string name="navbar_dialog_title">選擇操作以分配</string>
-    <string name="navbar_home_button">主頁鍵</string>
-    <string name="navbar_recent_button">多任務鍵</string>
-    <string name="navbar_search_button">搜尋鍵</string>
-    <string name="navbar_back_button">返回鍵</string>
-    <string name="navbar_empty_button">空</string>
-    <string name="navbar_menu_conditional_button">菜單鍵（自動隱藏）</string>
-    <string name="navbar_menu_always_button">菜單鍵（使用顯示）</string>
-    <string name="navbar_menu_big_button">菜單鍵</string>
+    <!-- Pie -->
+    <!-- 派 -->
+    <string name="pie_date_format">yyyy年 MMM dd日, ccc</string>
+    <string name="pie_hour_format_12">hh:mm</string>
+    <string name="pie_hour_format_24">HH:mm</string>
+    <string name="pie_am_pm">a</string>
+    <string name="enable_pie_control_title">Pie</string>
+    <string name="enable_pie_control_message">是否在沉浸模式中開啟Pie?</string>
+    <string name="pie_state">@string/enable_pie_control_title</string>
 
 </resources>
