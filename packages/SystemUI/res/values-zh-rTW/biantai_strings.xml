@@ -50,12 +50,12 @@
     <string name="quick_settings_immersive_global_on_label">沉浸模式</string>
     <!-- QuickSettings tile: Immersive global mode (Off) -->
     <!-- 快捷设置磁贴: 全局沉浸模式 (关) -->
-    <string name="quick_settings_immersive_global_off_label">沉浸模式: 關閉</string>
+    <string name="quick_settings_immersive_global_off_label">沉浸模式：關閉</string>
     <!-- QuickSettings tile: Immersive mode extra -->
     <!-- 快捷设置磁贴: 进阶沉浸模式 -->
     <string name="quick_settings_immersive_mode_off_label">禁用</string>
-    <string name="quick_settings_immersive_mode_full_label">全屏</string>
-    <string name="quick_settings_immersive_mode_no_status_bar_label">導航列</string>
+    <string name="quick_settings_immersive_mode_full_label">全螢幕</string>
+    <string name="quick_settings_immersive_mode_no_status_bar_label">導覽列</string>
     <string name="quick_settings_immersive_mode_no_navigation_bar_label">狀態列</string>
     <!-- QuickSettings tile: Power button -->
     <!-- 快捷设置磁贴: 电源按钮 -->
