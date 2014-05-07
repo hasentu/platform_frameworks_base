@@ -52,7 +52,7 @@
     <string name="reboot_normal">@string/global_action_reboot</string>
     <!-- Button to reboot the device into recovery, within the reboot options dialog -->
     <!-- "重新启动"对话框中的重启至恢复模式按钮 -->
-    <string name="reboot_recovery">恢復模式</string>
+    <string name="reboot_recovery">還原模式</string>
     <!-- Button to reboot the device into fastboot, within the reboot options dialog -->
     <!-- "重新启动"对话框中的重启至Fastboot模式按钮 -->
     <string name="reboot_fastboot">引導模式</string>
